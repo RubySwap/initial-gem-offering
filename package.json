@@ -1,16 +1,16 @@
 {
-  "name": "ifo",
+  "name": "igo",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "migrate": "truffle migrate --network bscTestnet",
-    "compile": "truffle compile --network bscTestnet",
+    "migrate": "truffle migrate",
+    "compile": "truffle compile",
     "test": "npx builder test"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^3.2.0",
     "@openzeppelin/test-helpers": "^0.5.6",
-    "@pancakeswap/pancake-swap-lib": "0.0.4",
+    "@rubyswap/ruby-swap-lib": "0.0.4",
     "truffle": "^5.1.51",
     "truffle-flattener": "^1.4.4"
   },
